@@ -1,0 +1,133 @@
+A. The existence:
+Your proposed project sits at the intersection of six disciplines:
+Field	What it contributes
+Remote Sensing	Acquiring and interpreting satellite imagery
+GIS	Mapping, measuring and analysing geographical features
+Computer Vision	Understanding and extracting information from images
+GeoAI	Applying AI/ML to geographical and spatial data
+Urban Planning	Translating measurements into planning indicators
+Spatial Analytics	Measuring distribution, accessibility and connectivity
+
+The broader field is often called GeoAI (Geospatial Artificial Intelligence).
+NOTE:  ISRO and IIRS will be of use to us
+
+B. International research and existing projects
+
+1. SpaceNet: Provides satellite imagery with labelled building footprints and road networks. Particularly useful for learning and benchmarking.
+
+2. DeepGlobe: Useful for understanding land-cover classification and segmentation.
+
+3. LoveDA: Useful for investigating differences between urban and rural environments and model generalisation.
+
+C. Litertaure review and survey gathering information:
+Read Research papers, books and necessary information thats it! 
+This research paper "Semantic Segmentation of Satellite Images for Smart City Development: A Systematic Literature Review (2026)."
+Stage A: Divide the literature into six categories
+Category	What to understand
+A. Remote sensing	Satellite sensors, spectral bands, resolution and image acquisition
+B. Image processing	Filtering, enhancement, correction and preprocessing
+C. Computer vision	Classification, detection and semantic segmentation
+D. GeoAI and GIS	Spatial analysis, georeferencing and geospatial data processing
+E. Urban planning	Urban morphology, public spaces, density and accessibility
+F. Existing systems	Previous platforms, algorithms, datasets and research limitations
+
+D. Possible project direction:
+I would investigate these six directions.
+Research direction	What you investigate
+1. Urban feature extraction	Accurate identification of buildings, roads, vegetation and open spaces
+2. Public-space assessment	Distribution, coverage and accessibility of parks and open spaces
+3. Urban growth monitoring	Changes in built-up areas, vegetation and infrastructure over time
+4. Road-network intelligence	Road connectivity, missing links and spatial distribution
+5. Indian urban morphology	Performance of existing AI models in dense, heterogeneous Indian cities
+6. Multi-source data fusion	Combining optical, SAR, GIS and other geographical datasets
+
+GeoAI-Based Urban Spatial Intelligence for Public-Space and Infrastructure Planning
+An integrated framework for extracting urban features from satellite imagery, quantifying their spatial characteristics and assessing the distribution and accessibility of public spaces in selected Indian urban areas.
+
+Core research questions:
+1. How accurately can computer vision extract urban features from satellite imagery?
+2. Can these extracted features be converted into reliable urban-planning indicators?
+3. Can geospatial analysis identify neighbourhoods with relatively poor access to public green spaces?
+4. How well do existing models perform in different types of Indian urban environments?
+
+___________________________________________________________________________________________________
+
+Learn the concept → perform a small practical exercise → understand its research application → incorporate it into your project.
+A. Learning roadmap
+
+Module 1 — Remote Sensing Fundamentals
+Start here
+- What is remote sensing?
+- How do satellites capture images?
+- Optical versus SAR imagery.
+- Spatial, spectral, temporal and radiometric resolution.
+- Multispectral and panchromatic imagery.
+- Satellite sensors and image characteristics.
+Outcome: Understand what data you are acquiring and what information it can provide.
+
+
+Module 2 — GIS and Geospatial Fundamentals
+- Raster and vector data.
+- Coordinates and projections.
+- Georeferencing.
+- Spatial layers and overlays.
+- Spatial measurements.
+- Buffering and spatial intersections.
+Tools: QGIS, GeoPandas.
+
+Outcome: Work with geographical information rather than ordinary images.
+
+Module 3 — Python and Image Processing
+- Python fundamentals.
+- NumPy and Pandas.
+- Image representation and pixel values.
+- Colour spaces and image enhancement.
+- Filtering, thresholding and edge detection.
+- OpenCV and raster image handling.
+Tools: Python, OpenCV, Rasterio.
+
+Outcome: Load, inspect, process and manipulate satellite imagery.
+
+Module 4 — Machine Learning and Computer Vision
+- Machine learning fundamentals.
+- Classification versus detection versus segmentation.
+- CNN architecture.
+- Training, testing and validation.
+- U-Net and DeepLabV3+.
+- YOLO and object detection.
+- Model performance evaluation.
+Tools: PyTorch, Torchvision.
+
+Outcome: Develop or adapt models that extract urban features automatically.
+
+Module 5 — Spatial Analytics and Urban Planning
+- Urban density and morphology.
+- Land-use and land-cover analysis.
+- Green-space indicators.
+- Road-network connectivity.
+- Walking accessibility.
+- Spatial distribution and inequality.
+- Urban growth analysis.
+Tools: QGIS, GeoPandas, OSMnx, NetworkX.
+
+Module 6 — System Development and Visualisation
+- Integrating data-processing pipelines.
+- Storing spatial datasets.
+- Interactive maps.
+- Dashboard development.
+- Automated report generation.
+- Reproducible workflows.
+Tools: Streamlit, Folium, PostgreSQL/PostGIS (later).
+
+Outcome: Present your research through a usable prototype.
+________________________________________________________________________
+
+C. Where should you learn?
+These are useful starting points, particularly because you want to develop independently without spending heavily on courses.
+Resource	What to learn	Link
+IIRS e-learning	Remote sensing and GIS	IIRS courses
+Google Earth Engine	Satellite-data processing	Official documentation
+QGIS Training Manual	GIS fundamentals	QGIS manual
+OpenCV	Image processing	OpenCV documentation
+PyTorch	Deep learning	PyTorch tutorials
+GeoPandas	Spatial data analysis	GeoPandas guide
